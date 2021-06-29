@@ -1,0 +1,21 @@
+.home{
+    background-color: white;
+
+}
+.entry-title{
+    color: black;
+    font-size: xx-large;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

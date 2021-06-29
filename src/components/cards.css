@@ -1,0 +1,55 @@
+.catalog-container{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-auto-rows: minmax(150px,auto);
+    grid-gap: 80px;
+    position: relative;
+    justify-content:space-evenly;
+    position: relative;
+    
+    
+
+}
+
+.catalog-card{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.5s;
+    animation: ease-in;
+    margin-left: 40px;
+}
+.catalog-card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.catalog-card-content{
+    margin: 1rem;
+    margin-top: 0.3rem;
+    color: navy;
+    
+}
+h3,p{
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h4{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.catalog-card-title{
+    margin-bottom: 0.5rem;
+    color:mediumblue;
+}
+.catalog-card-image{
+    width: 300px;
+    overflow: hidden;
+    object-fit: contain;
+    height: 200px;
+}
